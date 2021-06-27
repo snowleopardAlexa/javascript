@@ -65,3 +65,14 @@ const HarryPotterAndTheSorcererStone = new Book (
    "Finished"
 );
 console.log(HarryPotterAndTheSorcererStone);
+
+const HarryPotterAndTheGobletOfFire = new Book (
+    "Harry Potter and the Goblet of Fire",
+    "J.K.Rowling",
+    6475859505566,
+    "2021",
+    691,
+    645,
+    "Finished"
+ );
+ console.log(HarryPotterAndTheGobletOfFire);
