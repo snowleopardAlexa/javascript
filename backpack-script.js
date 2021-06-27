@@ -7,7 +7,7 @@ import Backpack from './Backpack.js';
 import Book from './Book.js';
 
 const everydayPack = new Backpack (
-    "Everyday Backpack",
+    "Green Backpack",
     30,
     "grey",
     15,
@@ -20,15 +20,15 @@ const everydayPack = new Backpack (
 const content = `
 <main>
 <article>
-    <h1>Everyday Backpack</h1>
+    <h1>${everydayPack.name}</h1>
     <ul>
-        <li>Volume:</li>
-        <li>Color:</li>
-        <li>Age:</li>
-        <li>Number of pockets:</li>
-        <li>Left strap length:</li>
-        <li>Right strap length:</li>
-        <li>Lid status:</li>
+        <li>Volume: ${everydayPack.volume}</li>
+        <li>Color: ${everydayPack.color}</li>
+        <li>Age: ${everydayPack.backpackAge()}</li>
+        <li>Number of pockets: ${everydayPack.pocketNum}</li>
+        <li>Left strap length: ${everydayPack.strapLength.left}</li>
+        <li>Right strap length: ${everydayPack.strapLength.right}</li>
+        <li>Lid status: ${everydayPack.lidOpen}</li>
     </ul>
 </article>
 </main>
