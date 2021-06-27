@@ -40,7 +40,10 @@ document.body.innerHTML = content;
  * */ 
 
 // traditional string output
-const content = "<h1>${everydayPack.name}</h1>";
+// const content = "<h1>${everydayPack.name}</h1>";
+
+// string concatenation - outdated
+const content = "<h1>" + everydayPack.name + "</h1>";
 
 document.body.innerHTML = content;
 
