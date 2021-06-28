@@ -111,3 +111,18 @@ const HarryPotterAndTheGobletOfFire = new Book (
     "Started"
  );
  console.log(HarryPotterAndTheGobletOfFire);
+
+ /**
+  * Add navigation section to the DOM 
+  */
+
+ const navContent = `
+     <li><a href="#">Home</a></li>
+     <li><a href="#">About</a></li>
+     <li><a href="#">Backpacks</a></li>
+     <li><a href="#">Other things</a></li>
+     <li><a href="#">Contact</a></li>
+     `;
+
+     
+
