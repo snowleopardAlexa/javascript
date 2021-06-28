@@ -47,7 +47,6 @@ document.body.innerHTML = content;
 //document.body.innerHTML = content;
 
 const content = `
-  <article class="backpack" id="everyday">
     <figure class="backpack__image">
       <img src=${everydayPack.image} alt="" />
     </figure>
@@ -73,8 +72,10 @@ const content = `
         everydayPack.lidOpen
       }</span></li>
     </ul>
-  </article>
 `;
+
+const main = document.querySelector(".maincontent");
+
 
 console.log("The everydayPack object: ", everydayPack);
 console.log("The pocketNum value: ", everydayPack.pocketNum);
