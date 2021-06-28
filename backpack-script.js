@@ -80,6 +80,8 @@ newArticle.classList.add("backpack")
 newArticle.setAttribute("id", "everyday")
 newArticle.innerHTML = content;
 
+main.append(newArticle);
+
 
 console.log("The everydayPack object: ", everydayPack);
 console.log("The pocketNum value: ", everydayPack.pocketNum);
