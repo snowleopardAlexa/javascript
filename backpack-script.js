@@ -75,6 +75,10 @@ const content = `
 `;
 
 const main = document.querySelector(".maincontent");
+const newArticle = document.createElement("article")
+newArticle.classList.add("backpack")
+newArticle.setAttribute("id", "everyday")
+newArticle.innerHTML = content;
 
 
 console.log("The everydayPack object: ", everydayPack);
