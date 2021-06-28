@@ -73,6 +73,6 @@ const HarryPotterAndTheGobletOfFire = new Book (
     "2021",
     691,
     645,
-    "In progress"
+    "Started"
  );
  console.log(HarryPotterAndTheGobletOfFire);
