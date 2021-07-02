@@ -21,3 +21,15 @@ console.log("The pocketNum value: ", everydayPack.pocketNum);
 console.log("Date acquired: ", everydayPack.dateAcquired);
 console.log("Days since aquired: ", everydayPack.backpackAge());
 
+
+// Book parameters order: title, author, ISBN, pubYear, pageNumber, currentPage, readStatus
+const HarryPotterAndTheSorcererStone = new Book (
+   "Harry Potter and the Sorcerer Stone",
+   "J.K.Rowling",
+   647585950033,
+   "2019",
+   691,
+   691,
+   "Finished"
+);
+console.log(HarryPotterAndTheSorcererStone);
