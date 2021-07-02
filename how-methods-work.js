@@ -19,3 +19,6 @@ const handbag = {
 
 // how methods work
 console.log("The handbag object: ", handbag);
+console.log("The pocketNum value: ", handbag.pocketNum);
+
+console.log("Left before: ", handbag.strapLength.left);
