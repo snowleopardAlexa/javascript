@@ -21,5 +21,7 @@ class Book {
     updateCurrentPage(newCurrentPage) {
         this.currentPage = newCurrentPage;
     }
-    
+    updateReadStatus(newReadStatus) {
+        this.readStatus = newReadStatus;
+    }
 }
