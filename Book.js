@@ -25,3 +25,5 @@ class Book {
         this.readStatus = newReadStatus;
     }
 }
+
+export default Book;
