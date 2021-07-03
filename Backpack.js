@@ -26,6 +26,7 @@ class Backpack {
             right: strapLengthR,
         };
         this.lidOpen = lidOpen;
+        this.dateAcquired = dateAcquired;
     }
     // Add methods like normal functions:
     toggleLid(lidStatus) {
