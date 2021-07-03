@@ -23,8 +23,10 @@ console.log("The pockets value:", handbag.pocketNum);
 // nested object properties
 console.log("Strap length L:", handbag.strapLength.left);
 
+// with dot notation you can't access the property that starts with a number, quotation, hyphen. 
+// --> bracket notation can do more things 
 
 var query = "pocketNum";
 // bracket notation - it gives us more control, enables us to do advanced things
-console.log("The pockets value:", handbag[query]);
+console.log("The pocketNum value:", handbag[query]);
 
