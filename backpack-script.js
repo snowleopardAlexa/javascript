@@ -11,10 +11,11 @@ const everydayPack = new Backpack (
     "grey",
     15,
     26,
-    false
+    false,
+    "December 5, 2018 15:00:00 PST"
 );
 
 console.log("The everydayPack object: ", everydayPack);
 console.log("The pocketNum value: ", everydayPack.pocketNum);
 console.log("Date acquired: ", everydayPack.dateAcquired);
-console.log("Days since aquired: ", everydayPack.backpackAge);
+console.log("Days since aquired: ", everydayPack.backpackAge());
