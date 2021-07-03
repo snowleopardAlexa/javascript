@@ -31,4 +31,10 @@ class Backpack {
     toggleLid(lidStatus) {
         this.lidOpen = lidStatus;
     }
+    newStrapLength(lenghtLeft, lengthRight) {
+        this.strapLength.left = lengthLeft;
+        this.strapLength.right = lengthRight;
+    }
 }
+
+export default Backpack;
