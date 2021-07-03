@@ -6,5 +6,10 @@ const handbag = {
     strapLength: {
         left: 24,
         right: 24,
-    }
+    },
+    lidOpen: false,
+    toggleLid: function (lidStatus) {
+        this.lidOpen = lidStatus;
+    },
+    
 }
