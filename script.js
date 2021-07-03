@@ -24,7 +24,8 @@ console.log("The pockets value:", handbag.pocketNum);
 console.log("Strap length L:", handbag.strapLength.left);
 
 // with dot notation you can't access the property that starts with a number, quotation, hyphen. 
-// --> bracket notation can do more things 
+// --> bracket notation can be used when the convention is broken
+
 
 var query = "pocketNum";
 // bracket notation - it gives us more control, enables us to do advanced things
