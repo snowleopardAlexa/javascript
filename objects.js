@@ -23,3 +23,6 @@ const Lion = {
 console.log("The lion object:", lion);
 console.log("The teethAmount:", lion.teethAmount);
 
+// braket notation
+console.log("The lion object: ", lion[age]);
+
