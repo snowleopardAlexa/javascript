@@ -22,6 +22,7 @@ const Lion = {
 // dot notation
 console.log("The lion object:", lion);
 console.log("The teethAmount:", lion.teethAmount);
+console.log("The teethAmount top: ", lion.teethAmount.top)
 
 // braket notation
 var query = "teethAmount";
