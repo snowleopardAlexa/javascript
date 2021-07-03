@@ -18,3 +18,6 @@ const handbag = {
 };
 
 console.log("The handbag object:", handbag);
+// accessing object properties: dot notation, we use the dot to separated different properties
+console.log("The pockets value:", handbag.pocketNum);
+
