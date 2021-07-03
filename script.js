@@ -23,6 +23,8 @@ console.log("The pockets value:", handbag.pocketNum);
 // nested object properties
 console.log("Strap length L:", handbag.strapLength.left);
 
+
+var query = "pocketNum";
 // bracket notation - it gives us more control, enables us to do advanced things
-console.log("The pockets value:", handbag["pocketNum"]);
+console.log("The pockets value:", handbag[query]);
 
