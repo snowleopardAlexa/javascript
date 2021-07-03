@@ -13,4 +13,9 @@ const Lion = {
     toggleTooth: function (toothStatus) {
         this.toothBroken = toothStatus;
     },
-}
+    newTeethAmount: function (amountTop, amountBottom) {
+        this.teethAmount.top = amountTop;
+        this.teethAmount.bottom = amountBottom;
+    },
+};
+
