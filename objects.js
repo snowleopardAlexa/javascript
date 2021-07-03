@@ -8,5 +8,9 @@ const Lion = {
     teethAmount: {
         top: 10,
         bottom: 9
-    }
+    },
+    toothBroken: false,
+    toggleTooth: function (toothStatus) {
+        this.toothBroken = toothStatus;
+    },
 }
