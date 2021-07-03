@@ -19,3 +19,7 @@ const Lion = {
     },
 };
 
+// dot notation
+console.log("The lion object:", lion);
+console.log("The teethAmount:", lion.teethAmount);
+
