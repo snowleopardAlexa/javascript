@@ -18,4 +18,8 @@ console.log("Floating point number:", apples);
 let cats = true;
 console.log("Boolean value:", cats);
 
+// Null value (nothing):
+let dogs = null;
+console.log("Null value:", dogs);
+
 
