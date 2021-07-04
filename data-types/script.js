@@ -14,4 +14,8 @@ console.log("Integer:", lions);
 let apples = 5.5;
 console.log("Floating point number:", apples);
 
+// Boolean: 
+let cats = true;
+console.log("Boolean value:", cats);
+
 
