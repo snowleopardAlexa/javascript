@@ -29,3 +29,12 @@ console.log("Undefined:", oranges);
 // Undefined assigned:
 let cucumbers = undefined;
 console.log("Undefined assigned:", cucumbers);
+
+// Object:
+const dance = {
+    dance: "Mambo",
+    number: 5,
+};
+console.log("Object:", dance);
+
+
