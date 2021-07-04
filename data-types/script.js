@@ -25,3 +25,7 @@ console.log("Null value:", dogs);
 // Undefined:
 let oranges;
 console.log("Undefined:", oranges);
+
+// Undefined assigned:
+let cucumbers = undefined;
+console.log("Undefined assigned:", cucumbers);
