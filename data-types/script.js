@@ -37,4 +37,7 @@ const dance = {
 };
 console.log("Object:", dance);
 
+// Array:
+const birds = ["sparrow", "pigeon", "flamingo", "parrot"];
+console.log("Array:", birds);
 
