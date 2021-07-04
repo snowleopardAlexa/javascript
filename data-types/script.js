@@ -22,4 +22,6 @@ console.log("Boolean value:", cats);
 let dogs = null;
 console.log("Null value:", dogs);
 
-
+// Undefined:
+let oranges;
+console.log("Undefined:", oranges);
