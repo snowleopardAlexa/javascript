@@ -17,7 +17,7 @@ backpackContents.forEach(function (item) {
 });
 
 // The function grabs each item in turn, and then it says, if this item has a length that is bigger than or equal to five, meaning there are five or more characters in that item, then return the item. And this will return the first item that meets this requirement. 
-let longItems = backpackContents.find(function, (item) {
+let longItems = backpackContents.find(function (item) {
     if (item.length >= 5) {
         return item;
     }
