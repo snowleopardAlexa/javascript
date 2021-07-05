@@ -10,6 +10,7 @@ document.querySelector(".left .color-value").innerHTML = color;
 
 color = "skyblue";
 
+// VAR is mutable
 //  VAR is defined as a globally scoped variable. That means if you first assign a value to have VAR, and then inside a function, assign it a new value, that new value inside the function takes effect in all corresponding code. Even outside the function.
 // VAR is globally scoped. So even though we are changing the value of the VAR, inside a function, that new assignment, applies everywhere in the document, after this instance. So, JavaScript reads from the top down, says, color is purple. Now color is sky blue. Now color is blue. And that therefore, at the bottom here we get blue. 
 
