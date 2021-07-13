@@ -40,4 +40,12 @@ const addPack = function (currentPack) {
         <li>Number of pockets: ${currentPack.pocketNum}</li>
     </ul>
     `;
-}
+    return newArticle;
+};
+
+const theArticle = addPack(greenPack);
+console.log(theArticle);
+const main = document.querySelector("main");
+main.append(addPack(greenPack));
+
+
