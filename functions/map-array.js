@@ -29,5 +29,7 @@ stuffItems.forEach((item) => {
     stuffList.append(item);
 });
 
+// append stuffList to the <article>
+article.append(stuffList);
 
 
