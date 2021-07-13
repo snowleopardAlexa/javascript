@@ -1,0 +1,3 @@
+// You'll see the map method used a lot in modern JavaScript especially in JavaScript frameworks. And a lot of the time it's used to just iterate through an array. This is an anti-pattern and it should be avoided. Map is specifically for when you need to create a new array to do something further with the data. If you just want to iterate through an array, and then output the content right away, use a foreach loop, that's what it's for. 
+// So if you need to iterate through an array, use foreach. If you need to create a new array, out of an old array and do something to each of the items before you do so, then use map.
+
