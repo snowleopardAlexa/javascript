@@ -38,3 +38,13 @@ const nestedObjects = {
 const article = document.querySelector("article");
 let stuffList = document.createElement("ul");
 
+// for loop
+for (let i = 0; i < stuff.length; i++) {
+    let listItem = document.createElement("li");
+    listItem.innerHTML = stuff[i];
+    stuffList.append(listItem);
+}
+
+
+
+
