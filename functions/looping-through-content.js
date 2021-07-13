@@ -52,6 +52,15 @@ for (const item of stuff) {
     stuffList.append(listItem);
 }
 
+// foreach array method
+stuff.forEach((item) => {
+    let listItem = document.createElement("li");
+    listItem.innerHTML = item;
+    stuffList.append(listItem);
+});
+
+
+
 
 
 
