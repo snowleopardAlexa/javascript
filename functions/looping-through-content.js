@@ -59,6 +59,15 @@ stuff.forEach((item) => {
     stuffList.append(listItem);
 });
 
+// for...in loop and objects 
+for (const singleObject in nestedObjects) {
+    let listItem = document.createElement("li");
+    listItem.innerHTML = `Name: ${nestedObjects[singleObject].name}`;
+    stuffList.append(listItem);
+}
+
+article.append(stuffList);
+
 
 
 
