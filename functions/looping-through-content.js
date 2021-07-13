@@ -45,6 +45,13 @@ for (let i = 0; i < stuff.length; i++) {
     stuffList.append(listItem);
 }
 
+// for...of loop and arrays 
+for (const item of stuff) {
+    let listItem = document.createElement("li");
+    listItem.innerHTML = item;
+    stuffList.append(listItem);
+}
+
 
 
 
