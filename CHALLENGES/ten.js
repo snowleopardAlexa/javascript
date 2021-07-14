@@ -75,4 +75,25 @@ axios
       // Now I have some data
   }
 
+  /**
+   * Object-Oriented JavaScript 
+   * prototypes and classes
+   */
+  // protype chain --> 
+  Cookie.prototype.bake = function(temp, minutes) {
+      // bake a cake at a particular temperature
+      // for a number of minutes
+  }
+
+// Loosely vs strongly typed language
+// Loosely typed: flexible - JS
+// Strongly type: strict 
+// TypeScript: JS + strongly typed 
+// Moden JS Tools:
+// --> webpack, rollup.js
+
+
+
+
+
 
