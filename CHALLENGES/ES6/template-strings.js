@@ -18,3 +18,4 @@ function createEmail(firstName, price) {
 }
 
 createEmail("Guy", 100);
+
