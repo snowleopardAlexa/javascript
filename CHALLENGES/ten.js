@@ -22,7 +22,7 @@ jQuery.get("https://google.com/get?data=1", function(response) {
 });
 
 // nested callback
-jQuery.get("https://google.com/get?data=1", function(response) {
+   jQuery.get("https://google.com/get?data=1", function(response) {
     // now I have some data
 
     jQuery.get("https://google.com/get?data=1", function(response) {
@@ -37,4 +37,24 @@ jQuery.get("https://google.com/get?data=1", function(response) {
 /**
  * Promises
  */
+
+// one promise
+axios.get("https://httpbin.org/get").then(function(response) {
+    // now I have some data
+});
+
+// multiple promises in sequence, no nesting
+axios
+  .get("https://httpbin.org/get")
+  .then(function(response) {
+      // now I have some data
+      return axios.get("http://httpbin.org/get");
+  })
+  .then(function(response) {
+      // now I have some data
+
+      return axios.get("https://httpbin.org/get");
+  });
+
+  
 
