@@ -56,5 +56,23 @@ axios
       return axios.get("https://httpbin.org/get");
   });
 
-  
+  /**
+   * Async / Await
+   */
+
+  // one request
+  async function getOneThing() {
+      var response = await axios.get("https://httpbin.org/get");
+      // now I have some data
+  }
+
+  // multiple requests
+  async function getLotsOfThings() {
+      var response1 = await axios.get("https://httpbin.org/get");
+      var response2 = await axios.get("https://httpbin.org/get");
+      var response3 = await axios.get("https://httpbin.org/get");
+
+      // Now I have some data
+  }
+
 
