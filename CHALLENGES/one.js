@@ -206,3 +206,19 @@ function doubleIt(num) {
 
     return myNum;
 }
+
+// CALLBACK functions - used a lot of in modern JS
+// a function that is passed as an argument into another function 
+// and executed in that function
+function doubleiT(number) {
+    return(number *= 2);
+}
+
+var myNumbers = [1,2,3,4,5];
+var myDoubles = myNumbers.map(doubleIt);
+
+myNumbers.forEach(function(number) {
+    console.log("My array contains", number);
+});
+
+doubleiT = number => (number *= 2);
