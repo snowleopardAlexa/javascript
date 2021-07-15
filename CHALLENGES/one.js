@@ -163,4 +163,14 @@ function speakSomething(what) {
    }
 }
 
+// wait a few seconds to print output in the console
+window.setTimeout(speakSomething, 5000);
+
+var obj = {
+    sayHello: function() {
+        console.log("Hello");
+    }
+};
+
+obj.sayHello();
 
