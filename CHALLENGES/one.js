@@ -199,3 +199,10 @@ function randomizer(limit) {
 }
 
 randomizer(10);
+
+// function - we can reuse the same variable again if we use VAR 
+function doubleIt(num) {
+    var myNum = num * 2;
+
+    return myNum;
+}
