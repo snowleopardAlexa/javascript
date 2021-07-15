@@ -1,4 +1,6 @@
-// Create an array and loop through it using for loop
+/**
+ * Create an array and loop through it using for loop
+ */
 
 // Array
 const dogs = ["German Shepherd", "Golden Retriever", "Dashhund"];
@@ -15,5 +17,8 @@ for (let cats = 0; cat < cats.length; cat++) {
     console.log(cats[cat]);
 }
 
+/**
+ * 
+ */
 
 
