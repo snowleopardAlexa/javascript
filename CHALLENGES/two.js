@@ -18,7 +18,21 @@ for (let cats = 0; cat < cats.length; cat++) {
 }
 
 /**
- * 
+ * Create array of colors and print them all. 
+ * Change the last color to a different one, and print it.
  */
+
+const colors = ["red", "yellow", "blue", "orange"];
+
+console.log(colors); // prints whole array
+console.log(colors[0]);
+console.log(colors[1]);
+console.log(colors[2]);
+console.log(colors[3]);
+
+colors[3] = "purple" // changes orange to purple
+console.log(colors[3]);
+
+
 
 
