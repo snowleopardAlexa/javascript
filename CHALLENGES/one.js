@@ -111,7 +111,47 @@ function addingMachine() {
 addingMachine(1,2,3);
 addingMachine(1,2,3,4,5,6,7,8,9);
 
+// objects, references, and functions
+// objects are passed by reference inside the functions
+// they don't need return statement
+var calvin = {
+    name: "Calvin",
+    bestFriend: "Hobbes",
+    form: "human body"
+};
 
+// you can also pass an object to a function
+// because objects are passed by reference, the argument will be modified
+function transmogrifier(calvin) {
+    if (typeof calvin !== "object") {
+        console.error("argument is of the wrong type");
+        return;
+    }
+// generate a random number between 1 and 5
+var randomNumber = Math/floor(Math.random() * 5) + 1;
+
+switch (randomNumber) {
+    case 1:
+        calvin.form = "tyrannosaurus";
+        break;
+    case 2:
+        calvin.form = "grey wolf";
+        break;
+    case 3:
+        calvin.form = "bengal tiger";
+        break;  
+    case 4:
+        calvin.form = "grizzly bear";
+        break;  
+    case 5:
+        calvin.form = "canary";
+        break;     
+    default:
+        // he stays human
+        calvin.form = "human body";
+        break;           
+  }
+}
 
 
 
