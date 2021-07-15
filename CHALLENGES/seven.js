@@ -89,4 +89,16 @@ while (i < 10) {
         i += i;
     }
 
+// why use while? --> you don't know how many times
+// you need to loop over something
+var myArray = [true, true, true, true, true];
+var myItem = null;
 
+while (myItem !==false) {
+    console.log(
+        "myArray has " +
+        myArray.length + 
+        " items now. This loop will go until we pop a false."
+    );
+    myItem = myArray.pop();
+}
