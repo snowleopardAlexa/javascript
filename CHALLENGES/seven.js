@@ -111,3 +111,16 @@ while (true) {
     break;
 }
 
+// do while loop
+// do stuff if my item is not false 
+// do block is at least executed once
+var Array = [true, true, true, false, true, true];
+var myItem = false;
+do {
+    console.log(
+        "myArray has " +
+        myArray.length +
+        " items now. This loop will go until we pop a false."
+    );
+    myItem = myArray.pop();
+} while (myItem !== false);
