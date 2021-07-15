@@ -28,5 +28,18 @@ const divideBirds = (swan, pelican) => {
 let birds = divideBirds(45,5);
 console.log(birds);
 
+// basic functions
+function speak() {
+    console.log('Arf');
+    console.log('Woof');
+    console.log('Meow');
+    console.log('Mooooo');
+}
+speak();
+// output
+ArrayBufferWoof
+Meow
+Mooooo
+
 
 
