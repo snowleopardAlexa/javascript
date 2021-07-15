@@ -221,4 +221,6 @@ myNumbers.forEach(function(number) {
     console.log("My array contains", number);
 });
 
+// arrow function, it's not safe to use in the console browser, 
+// but in the recent node yes
 doubleiT = number => (number *= 2);
