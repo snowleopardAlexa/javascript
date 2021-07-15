@@ -82,5 +82,11 @@ for (var p in pages) {
     }
 }
 
+// while loops same as for loop
+var i = 0;
+while (i < 10) {
+    console.log(i + "...This will go until we hit 10") 
+        i += i;
+    }
 
 
