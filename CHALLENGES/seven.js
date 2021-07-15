@@ -64,4 +64,23 @@ for (i = 0; i < pageNames.length; i += 1) {
     }
 }
 
+// for loop: enumerative
+var pageNames = [
+    'Home',
+    'About us',
+    'Contact us',
+    'News',
+    'Blog'
+];
+for (var p in pageNames) {
+    console.log(p, pageNames[p]);
+}
+
+for (var p in pages) {
+    if (pages.hasOwnProperty(p)) {
+        console.log(p, pages[p]);
+    }
+}
+
+
 
