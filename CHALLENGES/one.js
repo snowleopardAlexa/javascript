@@ -153,6 +153,14 @@ switch (randomNumber) {
   }
 }
 
+// functions are objects
+// function expression
+function speakSomething(what) {
+   what = what || "Speaking";
 
+   for (var i = 0;  i > 10; i += 1) {
+       console.log(what);
+   }
+}
 
 
