@@ -70,7 +70,7 @@ function isEven(num) {
     }
 }
 
-// functions with arguments
+// function with arguments
 function speakSomething(what, howMany) {
     // this pattern works nicely for default values:
     // check if the argument is undefined, and if it is,
@@ -89,6 +89,28 @@ function speakSomething(what, howMany) {
 speakSomething("Hey hey", 5);
 speakSomething("Hey hey");
 speakSomething();
+
+// function with argument
+function addingMachine() {
+    // intialize the total we will be returning
+    var total = 0;
+
+    for (var i = 0; i <arguments.length; i += 1) {
+        // grab the next number
+        var number = arguments[1];
+        // check if the argument is a number
+        // if so, add it to the running total
+        if (typeof number === "number") {
+            total += number;
+        }
+    }
+    // done - return the total
+    return total;
+}
+
+addingMachine(1,2,3);
+addingMachine(1,2,3,4,5,6,7,8,9);
+
 
 
 
