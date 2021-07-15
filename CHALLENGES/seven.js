@@ -102,3 +102,12 @@ while (myItem !==false) {
     );
     myItem = myArray.pop();
 }
+
+// while loop
+var counter = 1;
+while (true) {
+    console.log(counter);
+    counter ++;
+    break;
+}
+
