@@ -174,3 +174,28 @@ var obj = {
 
 obj.sayHello();
 
+// SCOPE - jargon - functions
+// scope: where variables are defined
+// GLOBAL vs. LOCAL
+// global --> accessible everywhere, local --> accessible in local scope
+// avoid global variables, they can be accessed everywhere
+// and easily manipulated --> they are easy to create, it's easy to do it accidentally
+// use VAR, CONST, LET to keep variable locally
+
+var myNum = 32;
+var myResult = "Success";
+
+function randomizer(limit) {
+    var randomNumber = Math.floor(Math.random() * limit);
+
+    var myNum = randomNumber;
+
+    console.log("myNum is", myNum);
+    console.log("Global myNum is", window.myNum);
+
+    console.log("Our result is", myResult);
+
+    return myNum;
+}
+
+randomizer(10);
