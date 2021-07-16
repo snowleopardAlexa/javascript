@@ -42,3 +42,9 @@ while (count < max) {
     console.log(count)
     count = count + 1
 }
+
+// for loops: sequential
+for (var i = 0; i < 10; i+= 1) {
+   console.log(i);
+}
+
