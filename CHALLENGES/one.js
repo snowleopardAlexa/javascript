@@ -41,5 +41,22 @@ ArrayBufferWoof
 Meow
 Mooooo
 
+// fuddify function 
+function fuddify(speech) {
+    // if its not a string, return an error message
+    // check typeof
+    if (typeof speech !== "string") {
+        console.error("Nice twy, wabbit!");
+        return;
+    }
+
+    // otherwise, make it sound like elmer fudd
+    speech = speech.replace(/r/g, "w");
+    speech = speech.replace(/R/g, "w");
+
+    return speech;
+}
+
+
 
 
