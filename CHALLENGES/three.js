@@ -90,6 +90,18 @@ animal === "cat"
 // ternary operator --> enhanced readability
 var job = (animal === "cat") ? ("cat herder") : ("dog catcher");
 
+// type checking 
+var thing = 12;
+thing = "twelve";
+thing = 12
+typeof thing
+"number"
+thing = {}
+
+typeof thing === "object" && thing.hasOwnProperty("length")
+typeof null 
+thing = null
+thing = NaN
 
 
 
