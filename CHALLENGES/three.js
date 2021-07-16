@@ -72,6 +72,13 @@ if (!cryAboutIt) {
     console.log("Child says: YAY!");
 }
 
+// terse ifs
+var animal = "cat";
+// animal = 'dog';
+
+animal === 'cat'
+? console.log('You will be a cat herder.')
+: console.log('You will be a dog catcher.');
 
 
 
