@@ -36,6 +36,8 @@ else {
 }
 
 // switch block
+// if you don't write break, the block will continue
+// until it hits break
 switch (answer) {
     case "YES":
         console.log("You said YES");
@@ -47,3 +49,32 @@ switch (answer) {
         console.log("You said NO");  
         break;  
 }
+
+// terse ifs
+var wantForChristmas = 'puppy',
+gotForChristmas = 'puppy',
+cryAboutIt = false;
+
+if (wantForChristmas === gotForChristmas) {
+    console.log("Yay! The little children are so pleased");
+    cryAboutIt = false;
+} else {
+    console.log("Oh no! Sad Christmas!");
+    cryAboutIt = true;
+}
+if (cryAboutIt) {
+    console.log("Child says: WAAAAAA!");
+}
+if (cryAboutIt) {
+    consolelog("Child says: WAAAAA!");
+}
+if (!cryAboutIt) {
+    console.log("Child says: YAY!");
+}
+
+
+
+
+
+
+
