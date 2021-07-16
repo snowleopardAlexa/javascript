@@ -35,6 +35,7 @@ function speak() {
     console.log('Meow');
     console.log('Mooooo');
 }
+// type this inside the browser console to call the function
 speak();
 // output
 ArrayBufferWoof
@@ -69,6 +70,25 @@ function isEven(num) {
     }
 }
 
+// functions with arguments
+function speakSomething(what, howMany) {
+    // this pattern works nicely for default values:
+    // check if the argument is undefined, and if it is,
+    // provide a default value
+    var what = (typeof what !== 'undefined') ? what: 'default speech';
+    var howMany = (typeof howMany !== 'undefined') ? howMany : 10;
+    // shoter version
+    // what = what || 'default speech';
+    // howMany = howMany || 10;
+
+    for (var i = 0; i < howMany; i +=1) {
+        console.log(what + " (" + i + ")");
+    }
+}
+
+speakSomething("Hey hey", 5);
+speakSomething("Hey hey");
+speakSomething();
 
 
 
