@@ -35,3 +35,15 @@ else {
     console.log("You said NO")
 }
 
+// switch block
+switch (answer) {
+    case "YES":
+        console.log("You said YES");
+        break;
+    case "MAYBE":
+        console.log("You said MAYBE");
+        break;
+    default:
+        console.log("You said NO");  
+        break;  
+}
