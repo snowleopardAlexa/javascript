@@ -48,3 +48,20 @@ for (var i = 0; i < 10; i+= 1) {
    console.log(i);
 }
 
+// looping over an array
+var pageNames = [
+    'Home',
+    'About us',
+    'Contact us',
+    'News',
+    'Blog'
+];
+for (i = 0; i < pageNames.length; i += 1) {
+    if (document.title === pageNames[i]) {
+        console.log('We are here: ' + pageNames[i]);
+    } else {
+        console.log('We are not here: ' + pageNames[i]);
+    }
+}
+
+
