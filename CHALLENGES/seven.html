@@ -10,6 +10,7 @@
     <h2>JavaScript functions</h2>
     <p id="demo"></p>
     <p id="calc"></p>
+    <p id="celsius"></p>
 
     <script>
         // first function 
@@ -27,6 +28,10 @@
         }
 
         // third function
+        function toCelsius(f) {
+            return (5/9) * (f-32);
+        }
+        document.getElementById("celsius").innerHTML = toCelsius(93);
     </script>
 </body>
 </html>
