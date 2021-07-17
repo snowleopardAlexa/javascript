@@ -41,4 +41,20 @@ var string = "This is \
      jaguar: 'Simba'
  }
 
+ // manipulating objects
+ var bird = {
+     genus: 'corvus',
+     species: 'corvax',
+     commonName: 'raven',
+     callType: 'squawky',
+     deadly: false
+ }
+
+ bird.callType
+ // we add property to the objects list 
+ bird.color = 'red'
+ // camelCase is a typical way of writing variables names in JS
+ // it starts with lower letter and finish with big leter
+ 
+
 
