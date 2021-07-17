@@ -91,6 +91,27 @@ regex = /ever.$/i;
 regex = /ever\.$/i;
 regex = /Moun.$/i;
 
+// simple comparisions
+var one = 1
+var two = 2;
+
+// === strict operators
+// true
+one === one
+// true
+one !== two
+
+// we also use often not strict operators
+// false
+one != one
+
+// relational operators
+one > two
+one >= two
+one <= two
+
+
+
 
 
 
