@@ -31,3 +31,9 @@ if (age >= 16) {
     canDrive = 'no';
 }
 
+// exam
+let marks = prompt('Enter your marks :');
+let result = (marks >= 40) ? 'pass' : 'fail';
+console.log(`You ${result} the exam.`);
+
+
