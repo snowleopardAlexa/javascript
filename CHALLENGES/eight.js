@@ -27,4 +27,11 @@ var string = "This is \
  myString.toUpperCase();
  myString.toLowerCase();
 
+ // boolean
+ var myLocation = "LA"
+ var myOtherLocation = "NY"
+ myLocation === myOtherLocation
+ false
+ 
+
 
