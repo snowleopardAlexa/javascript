@@ -26,3 +26,12 @@ if (number > 0) {
     console.log('Number is positive');
 }
 
+// use window.prompt to print if statement in browser console
+var answer = window.prompt("Type YES, or NO");
+if (answer === "YES" || answer === "NO") {
+    console.log("You said YES")
+}
+else {
+    console.log("You said NO")
+}
+
