@@ -19,3 +19,12 @@ console.log(wildBirds);
 var string = "This is \
  Joe's favorite \
  chinese restaurant. "
+
+ // method and strings - it executes in the console browser
+ // otherwise is undefined
+ var myString = "This is my string"
+ myString.length;
+ myString.toUpperCase();
+ myString.toLowerCase();
+
+
