@@ -10,3 +10,10 @@ else (animals < 10) {
 
 const animals = animals > 10 ? "something" : "something else";
 
+// numbers example
+let num1 = 1;
+let num2 = 2;
+
+num1 < num2 ? console.log("True") : console.log("False");
+num1 > num2 ? console.log("True") : console.log("False");
+
