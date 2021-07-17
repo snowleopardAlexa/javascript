@@ -11,7 +11,7 @@ else {
 if (5 < 10) {
     console.log("5 is less than 10");
 } else {
-    console.log("5 is now bigger than 10")
+    console.log("5 is now bigger than 10");
 }
 
 // if statement Math.random
