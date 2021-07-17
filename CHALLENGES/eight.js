@@ -30,8 +30,15 @@ var string = "This is \
  // boolean
  var myLocation = "LA"
  var myOtherLocation = "NY"
+ // === equal strictly
  myLocation === myOtherLocation
  false
- 
+
+ // objects
+ var animals = {
+     lion: 'Chewi',
+     tiger: 'Togo',
+     jaguar: 'Simba'
+ }
 
 
