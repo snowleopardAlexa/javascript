@@ -73,7 +73,30 @@ var year = 2021,
     month = 'Oct',
     day = 31,
     holiday = 'Hallowen';
-    
+
+// regular expressions
+var string1 = "This is the longest string";
+var string2 = "This is the shortest string";
+var string3 = "This is the most weird string";
+
+var regex = /this/;
+console.log(regex.test(string1) );
+console.log(regex.test(string2) );
+console.log(regex.test(string3) );
+
+regex = /this/i;
+regex = /^this/i;
+regex = /this$/i;
+regex = /ever.$/i;
+regex = /ever\.$/i;
+regex = /Moun.$/i;
+
+
+
+
+
+
+
 
 
 
