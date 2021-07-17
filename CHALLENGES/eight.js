@@ -118,6 +118,31 @@ counter -= 1
 counter += 4
 counter *= 2
 
+// logical operators
+var animal1 = 'monkey';
+var animal2 = 'lion';
+var animal3 = 'zebra';
+
+// AND - all conditions must be true
+// true
+animal1 === 'monkey' && animal2 === 'zebra'
+
+// false
+animal1 === 'lion' && animal2 === 'zebra'
+
+// OR - only one must be true, false - the entire thing must be false
+// true
+animal1 === 'monkey' || animal2 === 'monkey'
+// false
+animal1 === 'zebra' || animal2 === 'monkey'
+
+// false
+!(animal1 === 'monkey' && animal2 === 'lion')
+// false
+animal1 !== 'monkey' || animal2 !== 'lion'
+
+
+
 
 
 
