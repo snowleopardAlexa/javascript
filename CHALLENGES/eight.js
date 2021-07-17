@@ -63,6 +63,18 @@ var string = "This is \
      'Mango'
  ]
 // when to use objects and when arrays?
+// how to manipulate the array
+arrayofStuff[0]
+arrayofStuff[arrayofStuff.length] = 'Orange'
+
+// whitespace - make code readable
+// it is ignored by JS but it makes the code readable
+var year = 2021,
+    month = 'Oct',
+    day = 31,
+    holiday = 'Hallowen';
+    
+
 
 
 
