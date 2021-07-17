@@ -5,3 +5,12 @@ let c = { ...a, ...b};
 
 console.log(c);
 
+// objects
+let cats = { lion: 'big mane', claws: 20 };
+let birds = { tucan: 'big beak', claws: 8 };
+
+let wildCats = {...cats};
+let wildBirds = {...birds};
+
+console.log(wildCats);
+console.log(wildBirds);
