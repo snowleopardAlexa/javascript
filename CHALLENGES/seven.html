@@ -9,12 +9,24 @@
 <body>
     <h2>JavaScript functions</h2>
     <p id="demo"></p>
+    <p id="calc"></p>
 
     <script>
+        // first function 
         function myFunction(p1, p2) {
             return p1 * p2;
         }
         document.getElementById("demo").innerHTML = myFunction(20, 30);
+
+        // second function
+        var x = newFunction(9,7);
+        document.getElementById("calc").innerHTML = x;
+
+        function newFunction(a,b) {
+            return a - b
+        }
+
+        // third function
     </script>
 </body>
 </html>
