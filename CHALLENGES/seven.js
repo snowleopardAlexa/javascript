@@ -35,3 +35,10 @@ do {
 while (i < 5);
 console.log(text);
 
+// loop with while
+let count = 0;
+let max = 10;
+while (count < max) {
+    console.log(count)
+    count = count + 1
+}
