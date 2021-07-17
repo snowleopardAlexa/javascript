@@ -110,6 +110,13 @@ one > two
 one >= two
 one <= two
 
+// arithmetic operator
+var counter = 0
+counter = counter + 1;
+counter += 1
+counter -= 1
+counter += 4
+counter *= 2
 
 
 
