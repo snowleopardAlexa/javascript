@@ -56,5 +56,14 @@ var string = "This is \
  // camelCase is a typical way of writing variables names in JS
  // it starts with lower letter and finish with big leter
  
+ // array 
+ var arrayofStuff = [
+     'Blueberry',
+     'Strawberry',
+     'Mango'
+ ]
+// when to use objects and when arrays?
+
+
 
 
