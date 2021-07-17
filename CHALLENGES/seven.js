@@ -24,3 +24,14 @@ do {
 }
 while (i > 0 && i < 5);
 console.log(result);
+
+// number
+var text = "";
+var i = 0;
+do {
+   text +="The number is " + i;
+   i++;
+}
+while (i < 5);
+console.log(text);
+
