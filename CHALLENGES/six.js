@@ -17,3 +17,17 @@ let num2 = 2;
 num1 < num2 ? console.log("True") : console.log("False");
 num1 > num2 ? console.log("True") : console.log("False");
 
+// let
+let age = 15;
+let canDrive = age >= 16 ? 'yes' : 'no';
+console.log(canDrive);
+// ternary above is the same as this is else statement
+let age = 15;
+let canDrive;
+
+if (age >= 16) {
+    canDrive = 'yes';
+} else {
+    canDrive = 'no';
+}
+
