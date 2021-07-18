@@ -39,3 +39,9 @@ const myConst='A const does not change.';
 var myVar='A var does change.';
 
 var myVar=2;
+
+// const
+const age; // errror as const cannot be kept un-initialized;
+const age = 20 ; 
+const age = 21 , // error as once declared const variable cann't be
+// re-declared in same scope or different scope. 
