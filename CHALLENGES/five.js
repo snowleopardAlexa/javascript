@@ -25,3 +25,17 @@ for (i = 0; i < 5; i++) {
 }
 console.log(text);
 
+// var and const comparision
+// var declares a variable, meaning its value will vary. 
+// const declares a constant, meaning its value will remain 
+// consistant and not change. 
+// If your variable changes throughout the program or website, 
+// declare it using a var statement. 
+// Otherwise, if its value does not change, declare it using 
+// a const statement. 
+
+const myConst='A const does not change.';
+
+var myVar='A var does change.';
+
+var myVar=2;
