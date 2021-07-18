@@ -16,3 +16,12 @@ var boolen1 = true;
 var boolen2 = false;
 var array = [11, "Hi!", true];
 var object = {age:11, speach:"Hi!", likes_Bananas:true};
+
+// loop with variable
+var text = "";
+var i;
+for (i = 0; i < 5; i++) {
+    text += "The number is " + i + "<br>";
+}
+console.log(text);
+
