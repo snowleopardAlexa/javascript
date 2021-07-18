@@ -40,6 +40,38 @@ console.log(colors[3]);
  * 3. 
  */
 
+const fruitsList = ['Apple', 'Banana', 'Orange', 'Lemon'];
+// prints number of items only
+console.log(fruitsList.length);
+
+fruitsList.forEach(function(item, index) {
+// prints names of objects in the array     
+console.log(item, index)
+});
+
+// we add Mango to the list
+const fruitsListNew = fruitsList.push('Mango');
+// prints the new number of items in an array
+console.log(fruitsListNew);
+
+// prints items in the array with Mango
+fruitsList.forEach(function(item) {
+    console.log(item);
+})
+
+// deletes last item Mango
+const first = fruitsList.pop();
+console.log(fruitsList);
+
+// skips first item Apple
+const last = fruitsList.shift();  
+console.log(fruitsList);
+
+
+
+
+
+
 /**
  * Create array of vegetables when you print:
  * 1. The array of the items
