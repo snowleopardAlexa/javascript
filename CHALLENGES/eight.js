@@ -14,3 +14,8 @@ let wildBirds = {...birds};
 
 console.log(wildCats);
 console.log(wildBirds);
+
+// strings
+var string = "This is \
+ Joe's favorite \
+ chinese restaurant. "
