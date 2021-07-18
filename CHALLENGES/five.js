@@ -81,3 +81,16 @@ function func() {
     B++ // B is not defined --> not ok, outside block scope
     return A + B; // NaN --> B is not defined
 }
+
+// the let statement declares a block scope local variable, optionally 
+// initializing it to a value
+
+let x = 1;
+
+if (x === 1) {
+    let x = 2;
+
+    console.log(x);
+}
+
+console.log(x);
