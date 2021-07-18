@@ -33,6 +33,33 @@ console.log(colors[3]);
 colors[3] = "purple" // changes orange to purple
 console.log(colors[3]);
 
+/**
+ * Create array of fruits when you print:
+ * 1. The number of fruits items in array
+ * 2. Assign the number to a fruit position
+ * 3. 
+ */
+
+/**
+ * Create array of vegetables when you print:
+ * 1. The array of the items
+ * 2. The array of deleted objects
+ */
+
+const vegetables = ['Cabbage', 'Turnip', 'Radish', 'Carrot', 'Cucumber', 'Onion']
+console.log(vegetables);
+
+const position = 1, amountOfDeletedItems = 3;
+
+const removedItems = vegetables.splice(position, amountOfDeletedItems);
+
+console.log(vegetables);
+console.log(removedItems);
+
+
+
+
+
 
 
 
