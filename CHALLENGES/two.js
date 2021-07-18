@@ -68,10 +68,6 @@ const last = fruitsList.shift();
 console.log(fruitsList);
 
 
-
-
-
-
 /**
  * Create array of vegetables when you print:
  * 1. The array of the items
@@ -87,6 +83,8 @@ const removedItems = vegetables.splice(position, amountOfDeletedItems);
 
 console.log(vegetables);
 console.log(removedItems);
+
+
 
 
 
