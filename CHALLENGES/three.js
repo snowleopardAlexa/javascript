@@ -14,4 +14,15 @@ if (5 < 10) {
     console.log("5 is now bigger than 10")
 }
 
+// if statement Math.random
+let number = (Math.random() - 3.5) * 5;
+if (number < 0) {
+    console.log('Number is negative');
+}
+if (number = 0) {
+    console.log('Number is zero');
+}
+if (number > 0) {
+    console.log('Number is positive');
+}
 
