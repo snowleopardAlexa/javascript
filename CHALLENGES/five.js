@@ -45,3 +45,27 @@ const age; // errror as const cannot be kept un-initialized;
 const age = 20 ; 
 const age = 21 , // error as once declared const variable cann't be
 // re-declared in same scope or different scope. 
+
+// desctructuring assignment syntax is a JS expression that
+// makes it possible to unpack values from arrays, or properties
+// from objects, into distinct variables.
+let array = [2,3];
+[a, b] = array;
+console.log(a);
+console.log(b);
+
+let object = {name: "someone", "weight: 500kg"};
+let {name, weight} = object;
+console.log(name);
+console.log(weight);
+
+//it i similar as doing this
+/*
+var a = array[0];
+var b = array[1]
+var name = object.name;
+var weight = object.weight;
+
+ */
+
+
