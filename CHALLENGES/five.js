@@ -68,4 +68,16 @@ var weight = object.weight;
 
  */
 
+// var and let
+// var has function scope
+// let has block scope
 
+function func() {
+    if (true) {
+        var A = 1;
+        let B = 2;
+    }
+    A++ // 2 --> ok, inside function scope
+    B++ // B is not defined --> not ok, outside block scope
+    return A + B; // NaN --> B is not defined
+}
