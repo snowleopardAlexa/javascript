@@ -39,3 +39,19 @@ const delay = (seconds) =>
       (err) => 
         console.error(new Error("Can't load people"))
   );
+
+  // Returning promises with fetch
+  // fetch is used to avoid writing long https requests
+  // fetch is built inside the browser
+  let getSpacePeople = () => 
+  fetch(
+      "http://api.open-notify.org/astros.json"
+  ).then((res) => res.json());
+
+  let spaceNames = () =>
+    getSpacePeople() 
+      .then((json) => json.people)
+      .then((people) => people.map((p) => p.name))
+      .then((names) => names.join(", "));
+
+  spaceNames().then(console.log);    
