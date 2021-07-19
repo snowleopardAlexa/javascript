@@ -34,3 +34,16 @@ const {title, price} = {
 console.log(title);
 console.log(price);
 
+// complex version
+const vacation = {
+    destination: "Chile",
+    travelers: 2,
+    activity: "skiing",
+    cost: "so much"
+};
+
+function marketing({destination, activity}) {
+    return `Come on ${destination} and do some ${activity}`;
+}
+
+console.log(marketing(vacation));
