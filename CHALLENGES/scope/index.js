@@ -27,9 +27,9 @@ newWarrior.shootWarrior();
 console.log(warrior, warriorTwo);
 
 // Types of scope
-// local - variables, objects, functions are only available inside: warriorTwo
-// global - variables, objects, functions are available to all: var warrior
-// block-scope - declare with let, const which are available in the block they're surrounded by: warriorTwo
+// LOCAL - variables, objects, functions are only available inside: warriorTwo
+// GLOBAL - variables, objects, functions are available to all: var warrior
+// BLOCK-SCOPED - declare with let, const which are available in the block they're surrounded by: warriorTwo
 
 // HOISTING --> moving all declarations to the top of the scope when the code is compiled
 // if you declare anything at the bottom ex. function and run it at the top 
@@ -55,6 +55,32 @@ var warrior3 = 'Viking';
 console.log(warrior, warriorTwo);
 
 // GLOBAL VARIABLES
+// It is always better to declare variable
+// not declared variable are automatically global and can be accessed by anything
+// and this can break the code
 
+'use strict'; // <-- catches global variables
 
+const warrior = {
+    name: 'Jane',
+    type: 'Ninja',
+    weapon: 'knife',
+    agility: 79
+} // this is globally scoped
+
+// globally scoped
+const screamWarrior = () => {
+    let warriorTwo = 'Samaraj';
+
+    warrior3 = 'Viking';
+    return {
+        shootWarrior: () => {
+            return console.log(warrior, warrior2);
+        }
+    }
+}
+
+const newWarrior = screamWarrior();
+newWarrior.shootWarrior();
+console.log(warrior, warrior3);
 
