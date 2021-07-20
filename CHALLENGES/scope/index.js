@@ -2,6 +2,8 @@
 // var - rarely used
 // const, let - ES6
 
+const { lightsalmon } = require("color-name");
+
 // global variable
 var warrior = 'Ninja';
 
@@ -83,4 +85,20 @@ const screamWarrior = () => {
 const newWarrior = screamWarrior();
 newWarrior.shootWarrior();
 console.log(warrior, warrior3);
+
+// Define global variable
+const animals = {
+    name: 'Kovu',
+    type: lightsalmon,
+    weight: 100,
+    color: black
+}
+
+// this functin is globally scoped
+const mildAnimals = () => {
+    return console.log(animals);
+}
+
+// no issues running this function
+mildAnimals();
 
