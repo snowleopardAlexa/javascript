@@ -10,7 +10,13 @@ class Car {
     }
 
     carStats() {
-        return `This car has ${this.doors}, a ${this.engine} and
+        return `This car has ${this.doors} doors, a ${this.engine} and
         a beautiful ${this.color} color!`
     }
 }
+
+// instance of the class Car
+const cx5 = new Car(4, 'V6', 'red');
+
+console.log (cx5);
+console.log (cx5.carStats());
