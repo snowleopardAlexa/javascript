@@ -1,0 +1,12 @@
+{
+    "name": "Alexa Slomski",
+    "position": "Author",
+    "courses": [
+        "Js and Ajax",
+        "Build Facebook",
+        "Jquery for Mobile"
+    ]
+}
+
+var info = JSON.parse(data);
+info.courses[1] --> "Js and Ajax"
