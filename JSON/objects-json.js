@@ -17,3 +17,19 @@ var info = {
         alert(this.full_name);
     }
 };
+
+// JS & JSON
+// Parsing JSON
+var data = '
+{
+    "name": "Alexa Slomski",
+    "position": "Author",
+    "courses": [
+        "Js and Ajax",
+        "Build Facebook",
+        "Jquery for Mobile"
+    ]
+}';
+
+// JSON has to be parsed into JS
+// can be done using eval('(' + data + or JSON.parse()))
