@@ -14,3 +14,7 @@ var info = {
 // normally accessed through dot notation
 console.log(info["full_name"]);
 console.log(info.links.youtube);
+
+// JSON EDITOR ONLINE - check your JSON
+// tools for validating JS and JSON:
+// JS hint, json editor online, JSONLint
