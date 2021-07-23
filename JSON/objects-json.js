@@ -33,3 +33,5 @@ var data = '
 
 // JSON has to be parsed into JS
 // can be done using eval('(' + data + or JSON.parse()))
+// JSON.stringify does the opposity of parse
+// A library like jQuery can be helpful
