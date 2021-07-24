@@ -45,3 +45,9 @@ const animals = () => {
 console.log(animals());
 
 // numbersOfAnimals & totaL Animals are not available globally
+
+// test if variables are local - Reference Error: variables are not defined
+console.log(animalPernumber, totalAnimals);
+
+// this works because the variable is globally available 
+console.log(numberOfAnimals);
