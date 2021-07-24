@@ -94,7 +94,7 @@ const animals = {
     color: black
 }
 
-// this functin is globally scoped
+// this function is globally scoped
 const mildAnimals = () => {
     return console.log(animals);
 }
@@ -102,3 +102,33 @@ const mildAnimals = () => {
 // no issues running this function
 mildAnimals();
 
+
+/**
+ * Challenge
+ */
+const animals = [
+    {
+        name: 'Jurin Pak',
+        type: 'bird',
+        sound: 'cwir',
+        power: 'flying'
+    },
+    {
+        name: 'Kovu',
+        type: 'wild cat',
+        sound: 'roar',
+        power: 'sharp claws'
+    },
+    {
+        name: 'Kiara',
+        type: 'wild dog',
+        sound: 'howl',
+        power: 'strong bite'
+    }
+]
+
+const wildAnimals = () => {
+    return console.log(animals);
+}
+
+wildAnimals();
