@@ -34,7 +34,7 @@ var numberOfAnimals = 45;
 
 const animals = () => {
     // local variable
-    let animalsPerNumber * 60;
+    let animalsPerNumber = 60;
 
     // local as well
     let totalAnimals = numberOfAnimals * animalsPerNumber;
