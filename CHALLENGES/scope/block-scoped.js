@@ -25,3 +25,48 @@ const wildAnimal = () => {
 wildAnimals();
 console.log(animals3);
 
+/**
+ * Challenge
+ */
+
+// ES6 uses mostly CONST nad LET
+const animals = [
+    {
+        name: 'Jurin Pak',
+        type: 'bird',
+        sound: 'cwir',
+        power: 'flying'
+    },
+    {
+        name: 'Kovu',
+        type: 'wild cat',
+        sound: 'roar',
+        power: 'sharp claws'
+    },
+    {
+        name: 'Kiara',
+        type: 'wild dog',
+        sound: 'howl',
+        power: 'strong bite'
+    }
+]
+
+const wildAnimals = () => {
+    // global variable animals available
+    console.log(animals);
+
+    animals.map((animal) => {
+        if (animal.power === 'strong bite') {
+            // block-scoped power
+            let power = animal.power;
+            console.log(`${animal.name} is ${animal.type} and has a power of ${power}`);
+        }
+        // block-scoped power isn't available here
+        // console.log(animal.power)
+    })
+}
+
+wildAnimals();
+
+
+
