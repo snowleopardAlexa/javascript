@@ -25,3 +25,23 @@
   // this WILL WORK - we are printing two functions
   console.log(wildAnimals(), wildAnimals2());
 
+/**
+ * Challenge
+ */
+
+// global variable
+var numberOfAnimals = 45;
+
+const animals = () => {
+    // local variable
+    let animalsPerNumber * 60;
+
+    // local as well
+    let totalAnimals = numberOfAnimals * animalsPerNumber;
+
+    return `We have ${totalAnimals} at our zoo`;
+}
+
+console.log(animals());
+
+// numbersOfAnimals & totaL Animals are not available globally
